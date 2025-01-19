@@ -141,7 +141,30 @@ nav .fa-solid {
 }
 
 /* marketplace section styles starts here */
+.market-container {
+  max-width: 1110px;
+  margin: 70px auto 0;
+}
 
+.market-logo-container {
+  padding: 35px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.market-outline {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  border: none;
+}
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
