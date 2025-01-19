@@ -229,4 +229,22 @@ nav .fa-solid {
   }
 
   /* marketplace responsive */
+  .market-container {
+    margin-top: 50px;
+  }
+
+  .market-outline {
+    display: none;
+  }
+
+  .market-logo-container {
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .market-logo-container img {
+    max-width: 15%;
+  }
+
+  /* popular responsive */
 }
