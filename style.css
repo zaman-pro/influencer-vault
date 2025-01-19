@@ -37,7 +37,7 @@ body {
   font-feature-settings: "liga" off, "clig" off;
   font-family: "Poppins", serif;
   font-style: normal;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 /* navbar style starts here */
@@ -95,6 +95,60 @@ nav .fa-solid {
   font-size: 2.125rem;
 }
 
+/* hero section style starts here */
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 120px;
+  /* border: 1px solid red; */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-title {
+  max-width: 582px;
+  color: var(--secondary-color);
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.hero-description {
+  max-width: 505px;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  background-color: var(--primary-color);
+}
+.hero-img {
+  padding: 30px 33px 31px 2px;
+  background-image: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
