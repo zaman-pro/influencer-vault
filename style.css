@@ -1,5 +1,4 @@
 /* google font */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
@@ -7,7 +6,7 @@
   --secondary-color: #3a3a3a;
   --fill-color: #fb8200;
 
-  --text-dark-400: rgba(0, 0, 0, 0.87);
+  --text-dark-400: #000000de;
   --text-dark-500: #18191f;
   --text-dark-700: #5e6366;
   --text-gray-700: #787885;
@@ -21,7 +20,6 @@
 }
 
 /* uni shared styles */
-
 * {
   margin: 0;
   padding: 0;
@@ -39,8 +37,11 @@ body {
   font-style: normal;
 }
 
-/* navbar style starts here */
+main section {
+  margin: 100px auto 0;
+}
 
+/* navbar style start here */
 .nav-bar-container,
 .nav-link-container {
   display: flex;
@@ -87,8 +88,7 @@ nav .fa-solid {
   font-size: 2.125rem;
 }
 
-/* hero section style starts here */
-
+/* hero section style start here */
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -140,7 +140,7 @@ nav .fa-solid {
   background-position: left;
 }
 
-/* marketplace section styles starts here */
+/* marketplace section styles start here */
 .market-container {
   max-width: 1110px;
   margin: 70px auto 0;
@@ -164,6 +164,55 @@ nav .fa-solid {
     rgba(192, 204, 218, 0.1) 100%
   );
   border: none;
+}
+
+/* popular section styles start here */
+.popular-container {
+  border: 1px solid red;
+}
+
+.popular-title {
+  color: var(--secondary-color);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+}
+
+.item-container {
+  margin: 30px 0px 50px;
+}
+
+.item-card {
+  max-width: 330px;
+  padding: 17px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.item-title {
+  color: var(--text-dark-500);
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 16px;
+}
+
+.item-price {
+  color: var(--text-dark-400);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 6px;
+}
+
+.item-description {
+  max-width: 196px;
+  color: var(--text-gray-700);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.252px;
 }
 /* responsive media query */
 
